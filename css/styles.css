@@ -60,11 +60,12 @@ a {
   height: 100%;
 }
 
-/*.wrapper-vertical{
+.wrapper-vertical {
   display: table-cell;
   vertical-align: middle;
 }
-.wrapper-horizontal{
+
+/*.wrapper-horizontal{
   min-height: 350px;
   width: 50%;
   max-width: 500px;
