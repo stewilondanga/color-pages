@@ -553,8 +553,11 @@ a {
   background-color: #D770AD
 }
 
-/*.color-D770AD{ color: #D770AD }
-.background-color-AAB2BD{ background-color: #AAB2BD }
+.color-D770AD {
+  color: #D770AD
+}
+
+/*.background-color-AAB2BD{ background-color: #AAB2BD }
 .color-AAB2BD{ color: #AAB2BD }
 .background-color-656D78{ background-color: #656D78 }
 .color-656D78{ color: #656D78 }
