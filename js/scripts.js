@@ -1,13 +1,13 @@
 var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-var book = $('.bk-book');
+/*var book = $('.bk-book');
 var bookPage = book.children('div.bk-page');
 var viewBookLink = book.find('.bk-bookview');
 var viewBackLink = book.find('.bk-bookback');
