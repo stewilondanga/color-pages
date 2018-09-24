@@ -695,13 +695,13 @@ a {
   transform: rotateX(-180deg);
 }
 
-/*.bb-outer {
+.bb-outer {
   width: 100%;
   overflow: hidden;
   z-index: 999;
 }
 
-.bb-overlay,
+/*.bb-overlay,
 .bb-flipoverlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
