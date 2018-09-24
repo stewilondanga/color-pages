@@ -199,14 +199,14 @@ a {
   backface-visibility: hidden;
 }
 
-/*.bk-left {
-	height: 100%;
-	-webkit-transform: rotate3d(0,1,0,-90deg);
-	-moz-transform: rotate3d(0,1,0,-90deg);
-	transform: rotate3d(0,1,0,-90deg);
+.bk-left {
+  height: 100%;
+  -webkit-transform: rotate3d(0, 1, 0, -90deg);
+  -moz-transform: rotate3d(0, 1, 0, -90deg);
+  transform: rotate3d(0, 1, 0, -90deg);
 }
 
-.bk-top {
+/*.bk-top {
 	-webkit-transform: rotate3d(1,0,0,90deg);
 	-moz-transform: rotate3d(1,0,0,90deg);
 	transform: rotate3d(1,0,0,90deg);
