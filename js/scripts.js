@@ -64,16 +64,16 @@ $('html').on('click', function(event) {
   }
   return false;
 });
-/*
+
 //Change color
-var colorLabel = (function(){
+var colorLabel = (function() {
   var labels = ['Change Color', '❤ this color']
-  return function(){
+  return function() {
     labels.push(labels.shift());
     return labels[0];
   }
 })();
-changeColorLink.click(function(){
+/*changeColorLink.click(function(){
   colorContainers.toggleClass('hidden');
   $(this).text(colorLabel());
 });
