@@ -128,16 +128,16 @@ a {
   z-index: 10;
 }
 
-/*.bk-front > div {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+.bk-front>div {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-.bk-page {
+/*.bk-page {
 	-webkit-transform: translate3d(0,0,19px);
 	-moz-transform: translate3d(0,0,19px);
 	transform: translate3d(0,0,19px);
