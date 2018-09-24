@@ -382,17 +382,17 @@ a {
   overflow: hidden;
 }
 
-/*.bk-book .bk-back p {
-	color: #fff;
-	font-size: 0.9em;
-	padding: 40px;
-	text-align: center;
-	font-weight: 700;
+.bk-book .bk-back p {
+  color: #fff;
+  font-size: 0.9em;
+  padding: 40px;
+  text-align: center;
+  font-weight: 700;
   position: absolute;
   width: 100%;
 }
 
-.bk-book .bk-back h1{
+/*.bk-book .bk-back h1{
   font: 800 8em "open sans";
   text-align: center;
   height: 100%;
