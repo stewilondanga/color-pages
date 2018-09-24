@@ -781,13 +781,13 @@ a {
   transform: rotateX(15deg);
 }
 
-/*.bb-horizontal .bb-flip-prev-end {
+.bb-horizontal .bb-flip-prev-end {
   -webkit-transform: rotateX(165deg);
   -moz-transform: rotateX(165deg);
   transform: rotateX(165deg);
 }
 
-.bb-item {
+/*.bb-item {
   width: 100%;
   height: 100%;
   position: absolute;
