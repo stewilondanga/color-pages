@@ -180,15 +180,15 @@ a {
   transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
 }
 
-/*.bk-cover-back {
-	background-color: #000;
-	-webkit-transform: rotate3d(0,1,0,-180deg);
-	-moz-transform: rotate3d(0,1,0,-180deg);
-	transform: rotate3d(0,1,0,-180deg);
+.bk-cover-back {
+  background-color: #000;
+  -webkit-transform: rotate3d(0, 1, 0, -180deg);
+  -moz-transform: rotate3d(0, 1, 0, -180deg);
+  transform: rotate3d(0, 1, 0, -180deg);
   overflow: hidden;
 }
 
-.bk-right {
+/*.bk-right {
 	height: 390px;
 	top: 5px;
 	-webkit-transform: rotate3d(0,1,0,90deg) translate3d(0,0,295px);
