@@ -122,7 +122,7 @@ var bookBlockPrev = function() {
   backCoverBookBlock.bookblock('prev');
 }
 
-/*bookBlock.children().add(backCoverBookBlock.children()).on({
+bookBlock.children().add(backCoverBookBlock.children()).on({
   'swipeleft': function(event) {
     bookBlockPrev();
     return false;
@@ -131,7 +131,7 @@ var bookBlockPrev = function() {
     bookBlockPrev();
     return false;
   },
-  'click': function(event){
+  'click': function(event) {
     if ($(event.target).parents('.bk-cover-back').length == 0)
       bookBlockNext();
     else
@@ -140,7 +140,7 @@ var bookBlockPrev = function() {
   }
 });
 
-bookBlock.bookblock({
+/*bookBlock.bookblock({
   speed: 800,
   shadow: false
 });
