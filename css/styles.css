@@ -298,10 +298,11 @@ a {
   cursor: pointer;
 }
 
-/*.bk-book .bk-cover .color-container.before{
-  top:0;
+.bk-book .bk-cover .color-container.before {
+  top: 0;
 }
-.bk-book .bk-cover .color-container.hidden{
+
+/*.bk-book .bk-cover .color-container.hidden{
   bottom: -10%;
   display:block;
 }
