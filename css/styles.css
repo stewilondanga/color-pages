@@ -751,14 +751,13 @@ a {
   transform: rotateY(0deg);
 }
 
-/*.bb-horizontal .bb-flip-next,
-.bb-horizontal .bb-flip-initial {
+.bb-horizontal .bb-flip-next, .bb-horizontal .bb-flip-initial {
   -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
   transform: rotateX(180deg);
 }
 
-.bb-horizontal .bb-flip-prev {
+/*.bb-horizontal .bb-flip-prev {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
