@@ -377,12 +377,12 @@ a {
   text-align: right;
 }
 
-/*.bk-book .bk-back{
+.bk-book .bk-back {
   display: table;
   overflow: hidden;
 }
 
-.bk-book .bk-back p {
+/*.bk-book .bk-back p {
 	color: #fff;
 	font-size: 0.9em;
 	padding: 40px;
