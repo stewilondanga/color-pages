@@ -583,12 +583,11 @@ a {
   display: block;
 }
 
-/*.no-csstransforms3d .bk-info button,
-.no-js .bk-info button {
-	display: none;
+.no-csstransforms3d .bk-info button, .no-js .bk-info button {
+  display: none;
 }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
   body{
     font-size: 50%;
   }
