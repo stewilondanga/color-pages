@@ -509,9 +509,11 @@ a {
   background-color: #3BAFDA
 }
 
-/*.color-3BAFDA{ color: #3BAFDA }
-.background-color-5D9CEC{ background-color: #5D9CEC }
-.color-5D9CEC{ color: #5D9CEC }
+.color-3BAFDA {
+  color: #3BAFDA
+}
+
+/*.color-5D9CEC{ color: #5D9CEC }
 .background-color-4A89DC{ background-color: #4A89DC }
 .color-4A89DC{ color: #4A89DC }
 .background-color-AC92EC{ background-color: #AC92EC }
