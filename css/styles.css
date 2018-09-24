@@ -20,6 +20,10 @@ html, body {
   clear: both;
 }
 
+.clearfix {
+  *zoom: 1;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -49,9 +53,6 @@ html, body {
 
 
 
-.clearfix {
-    *zoom: 1;
-}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
