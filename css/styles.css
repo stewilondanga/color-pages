@@ -321,13 +321,14 @@ a {
   padding: 0;
 }
 
-/*.bk-book .bk-cover .bk-title{
+.bk-book .bk-cover .bk-title {
   display: table-cell;
-  vertical-align:middle;
+  vertical-align: middle;
   color: #fff;
   text-transform: uppercase;
 }
-.bk-book .bk-cover .bk-title div{
+
+/*.bk-book .bk-cover .bk-title div{
   display:block;
   width: 343px;
   margin:auto;
