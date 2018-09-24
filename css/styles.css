@@ -188,18 +188,18 @@ a {
   overflow: hidden;
 }
 
-/*.bk-right {
-	height: 390px;
-	top: 5px;
-	-webkit-transform: rotate3d(0,1,0,90deg) translate3d(0,0,295px);
-	-moz-transform: rotate3d(0,1,0,90deg) translate3d(0,0,295px);
-	transform: rotate3d(0,1,0,90deg) translate3d(0,0,295px);
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
+.bk-right {
+  height: 390px;
+  top: 5px;
+  -webkit-transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 295px);
+  -moz-transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 295px);
+  transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 295px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.bk-left {
+/*.bk-left {
 	height: 100%;
 	-webkit-transform: rotate3d(0,1,0,-90deg);
 	-moz-transform: rotate3d(0,1,0,-90deg);
