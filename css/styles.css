@@ -286,18 +286,19 @@ a {
   cursor: default;
 }
 
-/*.bk-book .bk-cover .color-container{
-  position:absolute;
-  width:100%;
-  height:10%;
-  bottom:0;
-  left:0;
+.bk-book .bk-cover .color-container {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 0;
+  left: 0;
   -webkit-transition: top 0.5s, bottom 0.5s;
   -moz-transition: top 0.5s, bottom 0.5s;
   transition: top 0.5s, bottom 0.5s;
   cursor: pointer;
 }
-.bk-book .bk-cover .color-container.before{
+
+/*.bk-book .bk-cover .color-container.before{
   top:0;
 }
 .bk-book .bk-cover .color-container.hidden{
