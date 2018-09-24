@@ -689,13 +689,13 @@ a {
   transform: rotateY(-180deg);
 }
 
-/*.bb-horizontal .bb-back {
+.bb-horizontal .bb-back {
   -webkit-transform: rotateX(-180deg);
   -moz-transform: rotateX(-180deg);
   transform: rotateX(-180deg);
 }
 
-.bb-outer {
+/*.bb-outer {
   width: 100%;
   overflow: hidden;
   z-index: 999;
