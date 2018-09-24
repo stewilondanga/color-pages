@@ -151,11 +151,11 @@ a {
   z-index: 9;
 }
 
-/*.bk-page > div{
+.bk-page>div {
   margin-left: -100%;
 }
 
-.bk-front,
+/*.bk-front,
 .bk-back,
 .bk-front > div {
 	width: 100%;
