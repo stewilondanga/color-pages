@@ -400,8 +400,7 @@ a {
   vertical-align: middle;
 }
 
-/*.bk-book .bk-page .color-square,
-.bk-book .bk-cover-back .color-square{
+.bk-book .bk-page .color-square, .bk-book .bk-cover-back .color-square {
   display: table;
   width: 50%;
   height: 100%;
@@ -411,7 +410,7 @@ a {
   color: #333;
 }
 
-.bk-book .bk-page .color-square span,
+/*.bk-book .bk-page .color-square span,
 .bk-book .bk-cover-back .color-square span{
   display: table-cell;
   vertical-align: middle;
