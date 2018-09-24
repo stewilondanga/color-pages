@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
+html, body {
+  height: 100%;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -24,7 +28,7 @@
 
 
 
-html, body { height: 100%; }
+
 
 *,
 *:after,
