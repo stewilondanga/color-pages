@@ -350,11 +350,11 @@ a {
   line-height: 1em;
 }
 
-/*.highlight{
+.highlight {
   color: #ED5565;
 }
 
-.bk-book .bk-cover h3{
+/*.bk-book .bk-cover h3{
   position: absolute;
   bottom: 15%;
   left: 0;
