@@ -242,8 +242,8 @@ a {
   transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
 }
 
-/*.bk-viewback .bk-back {
-	z-index: 10;
+.bk-viewback .bk-back {
+  z-index: 10;
 }
 
 /* Main colors and content */
