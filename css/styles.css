@@ -739,14 +739,13 @@ a {
 
 /* Flipping classes */
 
-/*.bb-vertical .bb-flip-next,
-.bb-vertical .bb-flip-initial {
+.bb-vertical .bb-flip-next, .bb-vertical .bb-flip-initial {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
 
-.bb-vertical .bb-flip-prev {
+/*.bb-vertical .bb-flip-prev {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   transform: rotateY(0deg);
