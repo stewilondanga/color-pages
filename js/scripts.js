@@ -30,13 +30,16 @@ var bookBack = function() {
     .removeClass('bk-viewinside bk-bookdefault')
     .addClass('bk-viewback');
 };
-/*var bookInside = function(){
-  book.data({ opened : true, flip : false })
-      .removeClass('bk-viewback bk-bookdefault')
-      .addClass( 'bk-viewinside');
+var bookInside = function() {
+  book.data({
+      opened: true,
+      flip: false
+    })
+    .removeClass('bk-viewback bk-bookdefault')
+    .addClass('bk-viewinside');
 };
 
-bookDefault();
+/*bookDefault();
 
 viewBackLink.on('click', function(){
   if(book.data('flip')){
