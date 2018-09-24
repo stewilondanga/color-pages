@@ -140,7 +140,7 @@ bookBlock.children().add(backCoverBookBlock.children()).on({
   }
 });
 
-/*bookBlock.bookblock({
+bookBlock.bookblock({
   speed: 800,
   shadow: false
 });
@@ -149,7 +149,7 @@ backCoverBookBlock.bookblock({
   shadow: false
 });
 
-var throttleFunc = function(func, limit, limitQueue){
+/*var throttleFunc = function(func, limit, limitQueue){
   var lastTime = + new Date;
   var queued = 0;
   return function throttledFunc(){
