@@ -50,11 +50,11 @@ viewBackLink.on('click', function() {
   return false;
 });
 
-/*viewBookLink.on('click', function(){
+viewBookLink.on('click', function() {
   bookInside();
   return false;
 });
-
+/*
 //Detect click outside book
 $('html').on( 'click', function(event) {
   if ($(event.target).parents('.bk-book').length == 0){
