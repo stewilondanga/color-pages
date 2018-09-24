@@ -729,11 +729,11 @@ a {
 
 /* Content display */
 
-/*.bb-vertical .bb-front .bb-content {
+.bb-vertical .bb-front .bb-content {
   left: -100%;
 }
 
-.bb-horizontal .bb-front .bb-content {
+/*.bb-horizontal .bb-front .bb-content {
   top: -100%;
 }
 
