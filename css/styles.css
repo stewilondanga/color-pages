@@ -579,11 +579,11 @@ a {
   display: none;
 }
 
-/*.no-csstransforms3d .bk-book > div.bk-front {
-	display: block;
+.no-csstransforms3d .bk-book>div.bk-front {
+  display: block;
 }
 
-.no-csstransforms3d .bk-info button,
+/*.no-csstransforms3d .bk-info button,
 .no-js .bk-info button {
 	display: none;
 }
