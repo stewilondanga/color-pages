@@ -639,7 +639,7 @@ a {
   transform-origin: left center;
 }
 
-/*.bb-horizontal .bb-page {
+.bb-horizontal .bb-page {
   width: 100%;
   height: 50%;
   top: 50%;
@@ -648,7 +648,7 @@ a {
   transform-origin: center top;
 }
 
-.bb-page > div,
+/*.bb-page > div,
 .bb-outer,
 .bb-content,
 .bb-inner {
