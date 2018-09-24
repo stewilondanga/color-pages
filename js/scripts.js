@@ -22,12 +22,15 @@ var bookDefault = function() {
     .removeClass('bk-viewback bk-viewinside')
     .addClass('bk-bookdefault');
 };
-/*var bookBack = function(){
-  book.data({ opened : false, flip : true })
-      .removeClass('bk-viewinside bk-bookdefault')
-      .addClass('bk-viewback');
+var bookBack = function() {
+  book.data({
+      opened: false,
+      flip: true
+    })
+    .removeClass('bk-viewinside bk-bookdefault')
+    .addClass('bk-viewback');
 };
-var bookInside = function(){
+/*var bookInside = function(){
   book.data({ opened : true, flip : false })
       .removeClass('bk-viewback bk-bookdefault')
       .addClass( 'bk-viewinside');
