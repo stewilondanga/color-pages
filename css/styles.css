@@ -648,10 +648,7 @@ a {
   transform-origin: center top;
 }
 
-/*.bb-page > div,
-.bb-outer,
-.bb-content,
-.bb-inner {
+.bb-page>div, .bb-outer, .bb-content, .bb-inner {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -659,7 +656,7 @@ a {
   left: 0;
 }
 
-.bb-outer {
+/*.bb-outer {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
