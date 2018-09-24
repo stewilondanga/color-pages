@@ -575,13 +575,11 @@ a {
 
 /* Fallbacks */
 
-/*
-.no-csstransforms3d .bk-book > div,
-.no-csstransforms3d .bk-book .bk-cover-back {
-	display: none;
+.no-csstransforms3d .bk-book>div, .no-csstransforms3d .bk-book .bk-cover-back {
+  display: none;
 }
 
-.no-csstransforms3d .bk-book > div.bk-front {
+/*.no-csstransforms3d .bk-book > div.bk-front {
 	display: block;
 }
 
