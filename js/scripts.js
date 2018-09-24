@@ -100,18 +100,18 @@ var bookBlockLast = function() {
   backCoverBookBlock.bookblock('last');
 }
 
-/*var bookBlockLastIndex = bookBlock.children().length-1;
-var bookBlockNext = function(){
+var bookBlockLastIndex = bookBlock.children().length - 1;
+var bookBlockNext = function() {
   if (book.data('flip'))
     return bookDefault();
-  if(!book.data('opened'))
+  if (!book.data('opened'))
     return bookInside();
-  if (bookBlock.find('.bb-item:visible').index()===bookBlockLastIndex)
+  if (bookBlock.find('.bb-item:visible').index() === bookBlockLastIndex)
     return bookBack() + bookBlockFirst();
   bookBlock.bookblock('next');
   backCoverBookBlock.bookblock('next');
 }
-var bookBlockPrev = function(){
+/*var bookBlockPrev = function(){
   if (book.data('flip'))
     return bookBlockLast()+bookInside();
   if(!book.data('opened'))
