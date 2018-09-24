@@ -369,15 +369,15 @@ a {
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/*.bk-book .bk-left h2 {
-	color: #fff;
-	font-size: 15px;
-	line-height: 40px;
-	padding-right: 10px;
-	text-align: right;
+.bk-book .bk-left h2 {
+  color: #fff;
+  font-size: 15px;
+  line-height: 40px;
+  padding-right: 10px;
+  text-align: right;
 }
 
-.bk-book .bk-back{
+/*.bk-book .bk-back{
   display: table;
   overflow: hidden;
 }
