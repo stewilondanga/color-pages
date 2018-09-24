@@ -160,13 +160,12 @@ a {
   height: 100%;
 }
 
-/*.bk-left,
-.bk-right {
-	width: 40px;
-	left: -20px;
+.bk-left, .bk-right {
+  width: 40px;
+  left: -20px;
 }
 
-.bk-top,
+/*.bk-top,
 .bk-bottom {
 	width: 495px;
 	height: 40px;
