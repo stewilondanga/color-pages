@@ -73,12 +73,13 @@ a {
   position: relative;
 }
 
-/*.wrapper-square {
+.wrapper-square {
   display: inline-block;
   position: relative;
   width: 100%;
 }
-.wrapper-square-dummy {
+
+/*.wrapper-square-dummy {
   margin-top: 100%;
 }
 .wrapper-square-element {
