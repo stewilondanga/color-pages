@@ -656,13 +656,13 @@ a {
   left: 0;
 }
 
-/*.bb-outer {
+.bb-outer {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.bb-vertical .bb-content {
+/*.bb-vertical .bb-content {
   width: 200%;
 }
 
