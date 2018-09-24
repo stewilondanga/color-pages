@@ -78,9 +78,9 @@ changeColorLink.click(function() {
   $(this).text(colorLabel());
 });
 
-/*var css = $("<style type='text/css'></style>").appendTo('head');
+var css = $("<style type='text/css'></style>").appendTo('head');
 
-colorContainers.find('.color-square').click(function(){
+/*colorContainers.find('.color-square').click(function(){
   var color = $(this).attr('class').match(/background-color-([a-f0-9]{6})/i)[1];
   css.text('.highlight { color: #' + color + '; }');
 });
