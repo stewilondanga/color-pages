@@ -565,8 +565,11 @@ a {
   color: #AAB2BD
 }
 
-/*.background-color-656D78{ background-color: #656D78 }
-.color-656D78{ color: #656D78 }
+.background-color-656D78 {
+  background-color: #656D78
+}
+
+/*.color-656D78{ color: #656D78 }
 
 /* Fallbacks */
 
