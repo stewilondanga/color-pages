@@ -410,8 +410,7 @@ a {
   color: #333;
 }
 
-/*.bk-book .bk-page .color-square span,
-.bk-book .bk-cover-back .color-square span{
+.bk-book .bk-page .color-square span, .bk-book .bk-cover-back .color-square span {
   display: table-cell;
   vertical-align: middle;
 }
