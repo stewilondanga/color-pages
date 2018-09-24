@@ -473,8 +473,11 @@ a {
   color: #A0D468
 }
 
-/*.background-color-8CC152{ background-color: #8CC152 }
-.color-8CC152{ color: #8CC152 }
+.background-color-8CC152 {
+  background-color: #8CC152
+}
+
+/*.color-8CC152{ color: #8CC152 }
 .background-color-48CFAD{ background-color: #48CFAD }
 .color-48CFAD{ color: #48CFAD }
 .background-color-37BC9B{ background-color: #37BC9B }
