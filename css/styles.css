@@ -662,11 +662,11 @@ a {
   backface-visibility: hidden;
 }
 
-/*.bb-vertical .bb-content {
+.bb-vertical .bb-content {
   width: 200%;
 }
 
-.bb-horizontal .bb-content {
+/*.bb-horizontal .bb-content {
   height: 200%;
 }
 
