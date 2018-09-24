@@ -167,13 +167,13 @@ var throttleFunc = function(func, limit, limitQueue) {
   }
 }
 
-/*$(document).keydown(throttleFunc(function(e) {
+$(document).keydown(throttleFunc(function(e) {
   var keyCode = e.keyCode || e.which,
     arrow = {
-      left : 37,
-      up : 38,
-      right : 39,
-      down : 40
+      left: 37,
+      up: 38,
+      right: 39,
+      down: 40
     };
 
   switch (keyCode) {
