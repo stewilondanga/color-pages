@@ -257,18 +257,17 @@ a {
   width: 0px;
 }
 
-/*.bk-cover:after,
-.bk-back:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 10px;
-	bottom: 0;
-	width: 3px;
-	background: rgba(0,0,0,0.06);
+.bk-cover:after, .bk-back:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  width: 3px;
+  background: rgba(0, 0, 0, 0.06);
 }
 
-.bk-back:after {
+/*.bk-back:after {
 	left: auto;
 	right: 10px;
 }
