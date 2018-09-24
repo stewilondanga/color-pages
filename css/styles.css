@@ -505,8 +505,11 @@ a {
   color: #4FC1E9
 }
 
-/*.background-color-3BAFDA{ background-color: #3BAFDA }
-.color-3BAFDA{ color: #3BAFDA }
+.background-color-3BAFDA {
+  background-color: #3BAFDA
+}
+
+/*.color-3BAFDA{ color: #3BAFDA }
 .background-color-5D9CEC{ background-color: #5D9CEC }
 .color-5D9CEC{ color: #5D9CEC }
 .background-color-4A89DC{ background-color: #4A89DC }
