@@ -91,11 +91,11 @@ var backCover = bookBlock.parents('.bk-book').find('.bk-cover-back');
 var backCoverBookBlock = bookBlock.clone();
 backCoverBookBlock.appendTo(backCover);
 
-/*var bookBlockFirst = function(){
+var bookBlockFirst = function() {
   bookBlock.bookblock('first');
   backCoverBookBlock.bookblock('first');
 }
-var bookBlockLast = function(){
+/*var bookBlockLast = function(){
   bookBlock.bookblock('last');
   backCoverBookBlock.bookblock('last');
 }
