@@ -798,13 +798,12 @@ a {
 
 /* No JS */
 
-/*.no-js .bb-bookblock,
-.no-js ul.bb-custom-grid li {
+.no-js .bb-bookblock, .no-js ul.bb-custom-grid li {
   width: auto;
   height: auto;
 }
 
-.no-js .bb-item {
+/*.no-js .bb-item {
   display: block;
   position: relative;
 }
