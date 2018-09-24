@@ -365,11 +365,11 @@ a {
   text-transform: uppercase;
 }
 
-/*.bk-book .bk-content p {
-	font-family: Georgia, Times, "Times New Roman", serif;
+.bk-book .bk-content p {
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-.bk-book .bk-left h2 {
+/*.bk-book .bk-left h2 {
 	color: #fff;
 	font-size: 15px;
 	line-height: 40px;
