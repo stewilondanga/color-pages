@@ -449,8 +449,11 @@ a {
   color: #E9573F
 }
 
-/*.background-color-FFCE54{ background-color: #FFCE54 }
-.color-FFCE54{ color: #FFCE54 }
+.background-color-FFCE54 {
+  background-color: #FFCE54
+}
+
+/*.color-FFCE54{ color: #FFCE54 }
 .background-color-FCBB42{ background-color: #FCBB42 }
 .color-FCBB42{ color: #FCBB42 }
 .background-color-A0D468{ background-color: #A0D468 }
