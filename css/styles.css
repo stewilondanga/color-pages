@@ -65,14 +65,15 @@ a {
   vertical-align: middle;
 }
 
-/*.wrapper-horizontal{
+.wrapper-horizontal {
   min-height: 350px;
   width: 50%;
   max-width: 500px;
   margin: auto;
   position: relative;
 }
-.wrapper-square {
+
+/*.wrapper-square {
   display: inline-block;
   position: relative;
   width: 100%;
