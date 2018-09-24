@@ -107,13 +107,12 @@ a {
   transition: transform .5s, margin .5s;
 }
 
-/*.bk-book > div,
-.bk-front > div {
-	display: block;
-	position: absolute;
+.bk-book>div, .bk-front>div {
+  display: block;
+  position: absolute;
 }
 
-.bk-front {
+/*.bk-front {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
