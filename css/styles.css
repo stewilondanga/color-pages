@@ -775,13 +775,13 @@ a {
   transform: rotateY(-165deg);
 }
 
-/*.bb-horizontal .bb-flip-next-end {
+.bb-horizontal .bb-flip-next-end {
   -webkit-transform: rotateX(15deg);
   -moz-transform: rotateX(15deg);
   transform: rotateX(15deg);
 }
 
-.bb-horizontal .bb-flip-prev-end {
+/*.bb-horizontal .bb-flip-prev-end {
   -webkit-transform: rotateX(165deg);
   -moz-transform: rotateX(165deg);
   transform: rotateX(165deg);
