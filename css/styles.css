@@ -267,9 +267,9 @@ a {
   background: rgba(0, 0, 0, 0.06);
 }
 
-/*.bk-back:after {
-	left: auto;
-	right: 10px;
+.bk-back:after {
+  left: auto;
+  right: 10px;
 }
 
 /* Individual style */
