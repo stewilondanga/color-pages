@@ -95,12 +95,12 @@ var bookBlockFirst = function() {
   bookBlock.bookblock('first');
   backCoverBookBlock.bookblock('first');
 }
-/*var bookBlockLast = function(){
+var bookBlockLast = function() {
   bookBlock.bookblock('last');
   backCoverBookBlock.bookblock('last');
 }
 
-var bookBlockLastIndex = bookBlock.children().length-1;
+/*var bookBlockLastIndex = bookBlock.children().length-1;
 var bookBlockNext = function(){
   if (book.data('flip'))
     return bookDefault();
