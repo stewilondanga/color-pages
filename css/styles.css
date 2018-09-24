@@ -339,11 +339,12 @@ a {
   line-height: 1em;
 }
 
-/*.bk-book .bk-cover .bk-title h2{
+.bk-book .bk-cover .bk-title h2 {
   text-align: right;
   font: 800 1em "open sans";
 }
-.bk-book .bk-cover .bk-title h2.before{
+
+/*.bk-book .bk-cover .bk-title h2.before{
   text-align: left;
   margin-left: 3px;
   line-height: 1em;
