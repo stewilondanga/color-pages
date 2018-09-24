@@ -274,15 +274,11 @@ a {
 
 /* Individual style */
 
-/*
-.bk-book .bk-front > div,
-.bk-book .bk-back,
-.bk-book .bk-left,
-.bk-book .bk-front:after {
-	background-color: #241F20;
+.bk-book .bk-front>div, .bk-book .bk-back, .bk-book .bk-left, .bk-book .bk-front:after {
+  background-color: #241F20;
 }
 
-.bk-book .bk-cover{
+/*.bk-book .bk-cover{
   display: table;
   width:100%;
   height:100%;
