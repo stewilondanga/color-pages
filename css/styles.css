@@ -307,11 +307,12 @@ a {
   display: block;
 }
 
-/*.bk-book .bk-cover .color-container.before.hidden{
+.bk-book .bk-cover .color-container.before.hidden {
   top: -10%;
-  display:block;
+  display: block;
 }
-.bk-book .bk-cover .color-square{
+
+/*.bk-book .bk-cover .color-square{
   width: 10%;
   height: 100%;
   display: block;
