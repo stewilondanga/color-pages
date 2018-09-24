@@ -620,7 +620,7 @@ a {
   backface-visibility: hidden;
 }
 
-/*.bb-page {
+.bb-page {
   position: absolute;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -630,7 +630,7 @@ a {
   transition-property: transform;
 }
 
-.bb-vertical .bb-page {
+/*.bb-vertical .bb-page {
   width: 50%;
   height: 100%;
   left: 50%;
