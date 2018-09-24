@@ -39,9 +39,9 @@ var bookInside = function() {
     .addClass('bk-viewinside');
 };
 
-/*bookDefault();
+bookDefault();
 
-viewBackLink.on('click', function(){
+/*viewBackLink.on('click', function(){
   if(book.data('flip')){
     bookDefault();
   }else{
