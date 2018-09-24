@@ -10,8 +10,8 @@ var navigate = (function() {
 var book = $('.bk-book');
 var bookPage = book.children('div.bk-page');
 var viewBookLink = book.find('.bk-bookview');
-/*var viewBackLink = book.find('.bk-bookback');
-var changeColorLink = book.find('.change-color');
+var viewBackLink = book.find('.bk-bookback');
+/*var changeColorLink = book.find('.change-color');
 var colorContainers = book.find('.color-container');
 
 var bookDefault = function(){
