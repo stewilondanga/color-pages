@@ -95,19 +95,19 @@ a {
   display: none;
 }
 
-/*.bk-book {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transition: -webkit-transform .5s, margin .5s;
-	-moz-transition: -moz-transform .5s, margin .5s;
-	transition: transform .5s, margin .5s;
+.bk-book {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .5s, margin .5s;
+  -moz-transition: -moz-transform .5s, margin .5s;
+  transition: transform .5s, margin .5s;
 }
 
-.bk-book > div,
+/*.bk-book > div,
 .bk-front > div {
 	display: block;
 	position: absolute;
