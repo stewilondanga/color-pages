@@ -174,13 +174,13 @@ a {
   backface-visibility: hidden;
 }
 
-/*.bk-back {
-	-webkit-transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
-	-moz-transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
-	transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
+.bk-back {
+  -webkit-transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
+  -moz-transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
+  transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
 }
 
-.bk-cover-back {
+/*.bk-cover-back {
 	background-color: #000;
 	-webkit-transform: rotate3d(0,1,0,-180deg);
 	-moz-transform: rotate3d(0,1,0,-180deg);
