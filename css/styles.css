@@ -721,8 +721,7 @@ a {
   transform: rotateY(180deg);
 }
 
-/*.bb-bookblock.bb-horizontal > div.bb-page:first-child,
-.bb-bookblock.bb-horizontal > div.bb-page:first-child .bb-back {
+.bb-bookblock.bb-horizontal>div.bb-page:first-child, .bb-bookblock.bb-horizontal>div.bb-page:first-child .bb-back {
   -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
   transform: rotateX(180deg);
