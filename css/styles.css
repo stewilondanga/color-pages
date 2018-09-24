@@ -1,4 +1,5 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,7 +22,6 @@ body {
   height: 1.5em;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
 
 
 html, body { height: 100%; }
@@ -37,7 +37,8 @@ html, body { height: 100%; }
 }
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before,
+
+/*.clearfix:before,
 .clearfix:after {
     content: " ";
     display: table;
@@ -230,6 +231,7 @@ a {
 
 /* Transform classes */
 
+/*
 .bk-viewinside {
   margin-left: 47%;
 }
@@ -258,6 +260,7 @@ a {
 
 /* Main colors and content */
 
+/*
 .bk-front:after {
   content: '';
   position: absolute;
@@ -284,6 +287,7 @@ a {
 
 /* Individual style */
 
+/*
 .bk-book .bk-front > div,
 .bk-book .bk-back,
 .bk-book .bk-left,
@@ -422,6 +426,7 @@ a {
 
 /* Colors */
 
+/*
 .background-color-ED5565{ background-color: #ED5565 }
 .color-ED5565{ color: #ED5565 }
 .background-color-DA4453{ background-color: #DA4453 }
@@ -465,6 +470,7 @@ a {
 
 /* Fallbacks */
 
+/*
 .no-csstransforms3d .bk-book > div,
 .no-csstransforms3d .bk-book .bk-cover-back {
 	display: none;
@@ -614,6 +620,7 @@ a {
 
 /* */
 
+/*
 .bb-bookblock.bb-vertical > div.bb-page:first-child,
 .bb-bookblock.bb-vertical > div.bb-page:first-child .bb-back {
   -webkit-transform: rotateY(180deg);
@@ -629,7 +636,8 @@ a {
 }
 
 /* Content display */
-.bb-vertical .bb-front .bb-content {
+
+/*.bb-vertical .bb-front .bb-content {
   left: -100%;
 }
 
@@ -638,7 +646,8 @@ a {
 }
 
 /* Flipping classes */
-.bb-vertical .bb-flip-next,
+
+/*.bb-vertical .bb-flip-next,
 .bb-vertical .bb-flip-initial {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -698,7 +707,8 @@ a {
 }
 
 /* No JS */
-.no-js .bb-bookblock,
+
+/*.no-js .bb-bookblock,
 .no-js ul.bb-custom-grid li {
   width: auto;
   height: auto;
