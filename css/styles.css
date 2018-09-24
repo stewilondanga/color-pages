@@ -248,7 +248,6 @@ a {
 
 /* Main colors and content */
 
-/*
 .bk-front:after {
   content: '';
   position: absolute;
@@ -257,7 +256,8 @@ a {
   left: -1px;
   width: 0px;
 }
-.bk-cover:after,
+
+/*.bk-cover:after,
 .bk-back:after {
 	content: '';
 	position: absolute;
