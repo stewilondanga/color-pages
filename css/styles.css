@@ -666,11 +666,11 @@ a {
   width: 200%;
 }
 
-/*.bb-horizontal .bb-content {
+.bb-horizontal .bb-content {
   height: 200%;
 }
 
-.bb-page > div {
+/*.bb-page > div {
   width: 100%;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
