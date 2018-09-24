@@ -421,8 +421,11 @@ a {
   background-color: #ED5565
 }
 
-/*.color-ED5565{ color: #ED5565 }
-.background-color-DA4453{ background-color: #DA4453 }
+.color-ED5565 {
+  color: #ED5565
+}
+
+/*.background-color-DA4453{ background-color: #DA4453 }
 .color-DA4453{ color: #DA4453 }
 .background-color-FC6E51{ background-color: #FC6E51 }
 .color-FC6E51{ color: #FC6E51 }
