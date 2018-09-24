@@ -745,13 +745,13 @@ a {
   transform: rotateY(-180deg);
 }
 
-/*.bb-vertical .bb-flip-prev {
+.bb-vertical .bb-flip-prev {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
 
-.bb-horizontal .bb-flip-next,
+/*.bb-horizontal .bb-flip-next,
 .bb-horizontal .bb-flip-initial {
   -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
