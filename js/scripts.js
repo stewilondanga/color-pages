@@ -89,7 +89,7 @@ colorContainers.find('.color-square').click(function() {
 var bookBlock = $('.bb-bookblock');
 var backCover = bookBlock.parents('.bk-book').find('.bk-cover-back');
 var backCoverBookBlock = bookBlock.clone();
-/*backCoverBookBlock.appendTo(backCover);
+backCoverBookBlock.appendTo(backCover);
 
 /*var bookBlockFirst = function(){
   bookBlock.bookblock('first');
