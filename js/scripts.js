@@ -88,8 +88,8 @@ colorContainers.find('.color-square').click(function() {
 //Bookblock clone and setup
 var bookBlock = $('.bb-bookblock');
 var backCover = bookBlock.parents('.bk-book').find('.bk-cover-back');
-/*var backCoverBookBlock = bookBlock.clone();
-backCoverBookBlock.appendTo(backCover);
+var backCoverBookBlock = bookBlock.clone();
+/*backCoverBookBlock.appendTo(backCover);
 
 /*var bookBlockFirst = function(){
   bookBlock.bookblock('first');
