@@ -236,13 +236,13 @@ a {
   transform: translate3d(0, 0, 200px) rotate3d(0, 1, 0, 0deg);
 }
 
-/*.bk-book.bk-viewback {
-	-webkit-transform: translate3d(0,0,0px) rotate3d(0,1,0,180deg);
-	-moz-transform: translate3d(0,0,0px) rotate3d(0,1,0,180deg);
-	transform: translate3d(0,0,0px) rotate3d(0,1,0,180deg);
+.bk-book.bk-viewback {
+  -webkit-transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
+  -moz-transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
+  transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
 }
 
-.bk-viewback .bk-back {
+/*.bk-viewback .bk-back {
 	z-index: 10;
 }
 
