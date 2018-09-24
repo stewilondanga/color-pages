@@ -803,12 +803,12 @@ a {
   height: auto;
 }
 
-/*.no-js .bb-item {
+.no-js .bb-item {
   display: block;
   position: relative;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
