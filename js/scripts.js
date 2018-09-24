@@ -54,17 +54,17 @@ viewBookLink.on('click', function() {
   bookInside();
   return false;
 });
-/*
+
 //Detect click outside book
-$('html').on( 'click', function(event) {
-  if ($(event.target).parents('.bk-book').length == 0){
+$('html').on('click', function(event) {
+  if ($(event.target).parents('.bk-book').length == 0) {
     bookDefault();
     if (!colorContainers.hasClass('hidden'))
       changeColorLink.click();
   }
   return false;
 });
-
+/*
 //Change color
 var colorLabel = (function(){
   var labels = ['Change Color', '❤ this color']
