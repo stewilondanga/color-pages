@@ -677,13 +677,13 @@ a {
   transform-style: preserve-3d;
 }
 
-/*.bb-page > div:not(:only-child) {
+.bb-page>div:not(:only-child) {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.bb-vertical .bb-back {
+/*.bb-vertical .bb-back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
