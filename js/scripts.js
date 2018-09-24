@@ -14,12 +14,15 @@ var viewBackLink = book.find('.bk-bookback');
 var changeColorLink = book.find('.change-color');
 var colorContainers = book.find('.color-container');
 
-/*var bookDefault = function(){
-  book.data({ opened : false, flip : false })
-      .removeClass('bk-viewback bk-viewinside')
-      .addClass('bk-bookdefault');
+var bookDefault = function() {
+  book.data({
+      opened: false,
+      flip: false
+    })
+    .removeClass('bk-viewback bk-viewinside')
+    .addClass('bk-bookdefault');
 };
-var bookBack = function(){
+/*var bookBack = function(){
   book.data({ opened : false, flip : true })
       .removeClass('bk-viewinside bk-bookdefault')
       .addClass('bk-viewback');
