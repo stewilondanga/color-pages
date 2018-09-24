@@ -84,14 +84,14 @@ colorContainers.find('.color-square').click(function() {
   var color = $(this).attr('class').match(/background-color-([a-f0-9]{6})/i)[1];
   css.text('.highlight { color: #' + color + '; }');
 });
-/*
+
 //Bookblock clone and setup
 var bookBlock = $('.bb-bookblock');
-var backCover = bookBlock.parents('.bk-book').find('.bk-cover-back');
+/*var backCover = bookBlock.parents('.bk-book').find('.bk-cover-back');
 var backCoverBookBlock = bookBlock.clone();
 backCoverBookBlock.appendTo(backCover);
 
-var bookBlockFirst = function(){
+/*var bookBlockFirst = function(){
   bookBlock.bookblock('first');
   backCoverBookBlock.bookblock('first');
 }
