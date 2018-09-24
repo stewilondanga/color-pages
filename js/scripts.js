@@ -149,25 +149,25 @@ backCoverBookBlock.bookblock({
   shadow: false
 });
 
-/*var throttleFunc = function(func, limit, limitQueue){
-  var lastTime = + new Date;
+var throttleFunc = function(func, limit, limitQueue) {
+  var lastTime = +new Date;
   var queued = 0;
-  return function throttledFunc(){
-    var now = + new Date;
+  return function throttledFunc() {
+    var now = +new Date;
     var args = Array.prototype.slice.call(arguments);
-    if (now - lastTime > limit){
+    if (now - lastTime > limit) {
       func.apply(this, args);
-      lastTime = + new Date;
-    }else{
+      lastTime = +new Date;
+    } else {
       var boundFunc = throttledFunc.bind.apply(throttledFunc, [this].concat(args));
       queued++;
-      if (queued<limitQueue)
-        window.setTimeout(boundFunc, lastTime+limit-now);
+      if (queued < limitQueue)
+        window.setTimeout(boundFunc, lastTime + limit - now);
     }
   }
 }
 
-$(document).keydown(throttleFunc(function(e) {
+/*$(document).keydown(throttleFunc(function(e) {
   var keyCode = e.keyCode || e.which,
     arrow = {
       left : 37,
