@@ -605,7 +605,7 @@ a {
   }
 }
 
-/*.bb-bookblock {
+.bb-bookblock {
   width: 200%;
   height: 100%;
   margin: 0 auto;
@@ -620,7 +620,7 @@ a {
   backface-visibility: hidden;
 }
 
-.bb-page {
+/*.bb-page {
   position: absolute;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
