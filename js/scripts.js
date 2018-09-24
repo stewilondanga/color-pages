@@ -41,16 +41,16 @@ var bookInside = function() {
 
 bookDefault();
 
-/*viewBackLink.on('click', function(){
-  if(book.data('flip')){
+viewBackLink.on('click', function() {
+  if (book.data('flip')) {
     bookDefault();
-  }else{
+  } else {
     bookBack();
   }
   return false;
 });
 
-viewBookLink.on('click', function(){
+/*viewBookLink.on('click', function(){
   bookInside();
   return false;
 });
