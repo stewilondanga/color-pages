@@ -165,17 +165,16 @@ a {
   left: -20px;
 }
 
-/*.bk-top,
-.bk-bottom {
-	width: 495px;
-	height: 40px;
-	top: -15px;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
+.bk-top, .bk-bottom {
+  width: 495px;
+  height: 40px;
+  top: -15px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.bk-back {
+/*.bk-back {
 	-webkit-transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
 	-moz-transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
 	transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
