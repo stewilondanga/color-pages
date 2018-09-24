@@ -312,7 +312,7 @@ a {
   display: block;
 }
 
-/*.bk-book .bk-cover .color-square{
+.bk-book .bk-cover .color-square {
   width: 10%;
   height: 100%;
   display: block;
@@ -321,7 +321,7 @@ a {
   padding: 0;
 }
 
-.bk-book .bk-cover .bk-title{
+/*.bk-book .bk-cover .bk-title{
   display: table-cell;
   vertical-align:middle;
   color: #fff;
