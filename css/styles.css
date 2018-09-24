@@ -302,11 +302,12 @@ a {
   top: 0;
 }
 
-/*.bk-book .bk-cover .color-container.hidden{
+.bk-book .bk-cover .color-container.hidden {
   bottom: -10%;
-  display:block;
+  display: block;
 }
-.bk-book .bk-cover .color-container.before.hidden{
+
+/*.bk-book .bk-cover .color-container.before.hidden{
   top: -10%;
   display:block;
 }
