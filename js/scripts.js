@@ -111,18 +111,18 @@ var bookBlockNext = function() {
   bookBlock.bookblock('next');
   backCoverBookBlock.bookblock('next');
 }
-/*var bookBlockPrev = function(){
+var bookBlockPrev = function() {
   if (book.data('flip'))
-    return bookBlockLast()+bookInside();
-  if(!book.data('opened'))
+    return bookBlockLast() + bookInside();
+  if (!book.data('opened'))
     return bookBack();
-  if (bookBlock.find('.bb-item:visible').index()===0)
+  if (bookBlock.find('.bb-item:visible').index() === 0)
     return bookDefault();
   bookBlock.bookblock('prev');
   backCoverBookBlock.bookblock('prev');
 }
 
-bookBlock.children().add(backCoverBookBlock.children()).on({
+/*bookBlock.children().add(backCoverBookBlock.children()).on({
   'swipeleft': function(event) {
     bookBlockPrev();
     return false;
